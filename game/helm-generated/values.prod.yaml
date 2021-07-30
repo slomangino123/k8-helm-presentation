@@ -1,0 +1,7 @@
+
+namespace: prod
+name: game-2048
+image: alexwhen/docker-2048
+port: 80
+service:
+  port: 8900

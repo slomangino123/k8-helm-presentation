@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  namespace: dev
+  name: demo
+data:
+  # property-like keys; each key maps to a simple value
+  ConnectionStrings__EventStore: "eventstore-connection-string-here"
+  ConnectionStrings__Projection: "projection-connection-string-here"
+  AWS__Profile: "Support"
